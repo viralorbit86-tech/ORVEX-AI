@@ -27,6 +27,29 @@ body {
 
 .logo {
   font-size: 24px;
+  .answer {
+  width: 100%;
+  max-width: 750px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+.answer-label {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.answer-text {
+  white-space: pre-wrap;
+  color: #333;
+}
+
+.input-area button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
   font-weight: 800;
   letter-spacing: 1px;
 }
